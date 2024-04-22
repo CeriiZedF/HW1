@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* -------------- my styles -------------- */
+
+.header-text {
+    margin-bottom: 20px;
+}
+
+.img-block {
+    margin: 25px 0;
+    text-align: center;
+}
+.img-block img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 900px;
+    height: 425px;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-country {
+    display: flex;
+    align-items: center;
+}
+.header-country img {
+    object-fit: cover;
+    width: 40px;
+    height: 25px;
+    margin-left: 10px;
+}
